@@ -21,22 +21,22 @@ Esta es una API REST simulada utilizando [`json-server`](https://www.npmjs.com/p
 
 ```bash
 npm install -g json-server
-## 2. Iniciar el Servidor en el Puerto 3000
-
+2. Iniciar el Servidor en el Puerto 3000
 Ejecuta el siguiente comando en tu terminal para iniciar el servidor en el puerto 3000:
 
-```bash
+bash
+Copy
 json-server --watch db.json --port 3000
-## 3. Acceder a la API
+3. Acceder a la API
+Una vez que el servidor esté en ejecución, puedes acceder a la API utilizando la siguiente URL:
+
 http://localhost:3000
 
-## Endpoints
-
-| Método   | Endpoint          | Descripción                                      |
-|----------|-------------------|--------------------------------------------------|
-| `GET`    | `/items`          | Obtener todos los items.                         |
-| `GET`    | `/items/:id`      | Obtener un item específico por su ID.            |
-| `POST`   | `/items`          | Crear un nuevo item.                             |
-| `PUT`    | `/items/:id`      | Actualizar un item existente por su ID.          |
-| `PATCH`  | `/items/:id`      | Actualizar parcialmente un item por su ID.       |
-| `DELETE` | `/items/:id`      | Eliminar un item por su ID.                      |
+Endpoints
+Método	Endpoint	Descripción
+GET	/items	Obtener todos los items.
+GET	/items/:id	Obtener un item específico por su ID.
+POST	/items	Crear un nuevo item.
+PUT	/items/:id	Actualizar un item existente por su ID.
+PATCH	/items/:id	Actualizar parcialmente un item por su ID.
+DELETE	/items/:id	Eliminar un item por su ID.
