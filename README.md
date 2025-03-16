@@ -31,9 +31,7 @@ Esta es una API REST simulada utilizando [`json-server`](https://www.npmjs.com/p
 
 ```bash
 npm install -g json-server
-## 2. Iniciar el Servidor en el Puerto 3000
-Ejecuta el siguiente comando en tu terminal para iniciar el servidor en el puerto 3000:
-```bash
+## 2. Iniciar el Servidor en el Puerto 3000 en la terminal
 json-server --watch db.json --port 3000 
 
 ## 3. Acceder a la API
